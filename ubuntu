@@ -1,0 +1,8 @@
+# cat dockerfile nginx appserver
+FROM ubuntu
+MAINTAINER sona
+RUN apt-get update
+RUN apt-get -y install
+RUN echo "Dockerfile test on nginx" > /var/www/html/index.html
+EXPOSE 80
+CMD ["/user/bin/nginx","-g","daemon off;"]
