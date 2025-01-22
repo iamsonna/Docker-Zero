@@ -5,7 +5,7 @@ Pull sona/sona from the Docker repository:
 docker pull sona/sona
 Or build sona/sona from source:
 
-git clone https://github.com/sona/dockerfile.git
+git clone [https://github.com/sona/dockerfile.git](https://github.com/iamsonna/Docker-Zero)
 cd dockerfile
 docker build -t sona/sona .
 Run
