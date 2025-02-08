@@ -6,3 +6,16 @@ RUN apt-get -y install
 RUN echo "Dockerfile test on nginx" > /var/www/html/index.html
 EXPOSE 80
 CMD ["/user/bin/nginx","-g","daemon off;"]
+
+
+
+==========================
+
+#cat file nginx
+FROM nginx
+WORKDIR XXX
+RUN apt-get update
+RUN apt-get -y install
+RUN echo"Docker file" > /var/lib/path
+EXPOSE 80
+CMD ["/usr/bin/nginx","-g","demon off"]
